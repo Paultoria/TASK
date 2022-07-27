@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 224.536 sec <<< FAILURE! - in TestSuite
+Login(com.gigm.testcases.ValidateLogin)  Time elapsed: 8.148 sec  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="#" id="lmodal">...</a> is not clickable at point (1385, 30). Other element would receive the click: <div id="myLogin" class="Mymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: block;">...</div>
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA-SYSTEM', ip: '192.168.1.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.11 (eaaae9de6b899..., userDataDir: C:\Users\DEVELO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 82c3ae845ce6662e0a2440877e4cb915
+	at com.gigm.testcases.ValidateLogin.Login(ValidateLogin.java:34)
+
+Login(com.gigm.testcases.ValidateLogin)  Time elapsed: 8.213 sec  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="#" id="lmodal">...</a> is not clickable at point (1385, 30). Other element would receive the click: <div id="myLogin" class="Mymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: block;">...</div>
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA-SYSTEM', ip: '192.168.1.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.11 (eaaae9de6b899..., userDataDir: C:\Users\DEVELO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 82c3ae845ce6662e0a2440877e4cb915
+	at com.gigm.testcases.ValidateLogin.Login(ValidateLogin.java:34)
+
+bookAticket(com.gigm.testcases.ValidateBooking)  Time elapsed: 30.398 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"div.view-seats-section:nth-child(16) div.col-12.no-margin.seats-view-row.wow.fadeInUp div.container div.row.ng-scope div.row.right-margin.pad-15.itemtemp:nth-child(4) div.pad-bottom div.row.grey-background.down-20.add-pad-mobile.collapse.in div.col-sm-5.col-sm-offset-1.col-xs-12.pad-15.margin-left-10.on-mobile-rotate:nth-child(2) div.a14.add-pad-left.bus-back.ng-scope bus-seats.ng-isolate-scope div.row.ng-scope:nth-child(3) div.col-md-12 div.row div.col-xs-2.pad-28.ng-scope:nth-child(5) > span.seatsselect.ng-binding.bus-available"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA-SYSTEM', ip: '192.168.1.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.11 (eaaae9de6b899..., userDataDir: C:\Users\DEVELO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59744}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eef9f90fff2144959de3f60012920fe7
+*** Element info: {Using=css selector, value=div.view-seats-section:nth-child(16) div.col-12.no-margin.seats-view-row.wow.fadeInUp div.container div.row.ng-scope div.row.right-margin.pad-15.itemtemp:nth-child(4) div.pad-bottom div.row.grey-background.down-20.add-pad-mobile.collapse.in div.col-sm-5.col-sm-offset-1.col-xs-12.pad-15.margin-left-10.on-mobile-rotate:nth-child(2) div.a14.add-pad-left.bus-back.ng-scope bus-seats.ng-isolate-scope div.row.ng-scope:nth-child(3) div.col-md-12 div.row div.col-xs-2.pad-28.ng-scope:nth-child(5) > span.seatsselect.ng-binding.bus-available}
+	at com.gigm.testcases.ValidateBooking.bookAticket(ValidateBooking.java:39)
+

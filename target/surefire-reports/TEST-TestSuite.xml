@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="224.536" tests="10" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\developer\eclipse-workspace\DataDrivenFramework"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\developer\eclipse-workspace\DataDrivenFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\DEVELO~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk-13.0.1\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\developer\AppData\Local\Android\Sdk\tools\bin;C:\Users\developer\AppData\Local\Android\Sdk\tools;C:\Users\developer\AppData\Local\Android\Sdk\platform-tools;C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\apache-maven-3.6.3-bin\apache-maven-3.6.3;C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-13.0.1\lib;C:\Program Files\Java\jdk-13.0.1;C:\Users\developer\AppData\Local\Microsoft\WindowsApps;C:\Users\developer\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\developer"/>
+    <property name="user.timezone" value="Africa/Lagos"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="developer"/>
+    <property name="java.class.path" value="C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install clean"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="checkHeaderLinks" classname="com.gigm.testcases.ValidateHeaderLinks" time="42.2"/>
+  <testcase name="FooterlinksCheck" classname="com.gigm.testcases.ValidateHeaderLinks" time="14.766"/>
+  <testcase name="Login" classname="com.gigm.testcases.ValidateLogin" time="6.305"/>
+  <testcase name="Login" classname="com.gigm.testcases.ValidateLogin" time="8.148">
+    <failure message="element click intercepted: Element &lt;a href=&quot;#&quot; id=&quot;lmodal&quot;&gt;...&lt;/a&gt; is not clickable at point (1385, 30). Other element would receive the click: &lt;div id=&quot;myLogin&quot; class=&quot;Mymodal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;myModalLabel&quot; aria-hidden=&quot;true&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=79.0.3945.130)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;QA-SYSTEM&apos;, ip: &apos;192.168.1.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.11 (eaaae9de6b899..., userDataDir: C:\Users\DEVELO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 82c3ae845ce6662e0a2440877e4cb915" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="#" id="lmodal">...</a> is not clickable at point (1385, 30). Other element would receive the click: <div id="myLogin" class="Mymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: block;">...</div>
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA-SYSTEM', ip: '192.168.1.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.11 (eaaae9de6b899..., userDataDir: C:\Users\DEVELO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 82c3ae845ce6662e0a2440877e4cb915
+	at com.gigm.testcases.ValidateLogin.Login(ValidateLogin.java:34)
+]]></failure>
+    <system-out><![CDATA[Nsukka Ads is not displayed null
+the reason is element not interactable
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA-SYSTEM', ip: '192.168.1.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.11 (eaaae9de6b899..., userDataDir: C:\Users\DEVELO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 82c3ae845ce6662e0a2440877e4cb915
+]]></system-out>
+  </testcase>
+  <testcase name="Login" classname="com.gigm.testcases.ValidateLogin" time="8.213">
+    <failure message="element click intercepted: Element &lt;a href=&quot;#&quot; id=&quot;lmodal&quot;&gt;...&lt;/a&gt; is not clickable at point (1385, 30). Other element would receive the click: &lt;div id=&quot;myLogin&quot; class=&quot;Mymodal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;myModalLabel&quot; aria-hidden=&quot;true&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=79.0.3945.130)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;QA-SYSTEM&apos;, ip: &apos;192.168.1.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.11 (eaaae9de6b899..., userDataDir: C:\Users\DEVELO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 82c3ae845ce6662e0a2440877e4cb915" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="#" id="lmodal">...</a> is not clickable at point (1385, 30). Other element would receive the click: <div id="myLogin" class="Mymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: block;">...</div>
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA-SYSTEM', ip: '192.168.1.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.11 (eaaae9de6b899..., userDataDir: C:\Users\DEVELO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 82c3ae845ce6662e0a2440877e4cb915
+	at com.gigm.testcases.ValidateLogin.Login(ValidateLogin.java:34)
+]]></failure>
+    <system-out><![CDATA[Nsukka Ads is not displayed null
+the reason is element not interactable
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA-SYSTEM', ip: '192.168.1.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.11 (eaaae9de6b899..., userDataDir: C:\Users\DEVELO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 82c3ae845ce6662e0a2440877e4cb915
+]]></system-out>
+  </testcase>
+  <testcase name="signUp" classname="com.gigm.testcases.ValidateSignUp" time="10.675"/>
+  <testcase name="signUp" classname="com.gigm.testcases.ValidateSignUp" time="9.379"/>
+  <testcase name="signUp" classname="com.gigm.testcases.ValidateSignUp" time="9.879"/>
+  <testcase name="CheckAmbassador" classname="com.gigm.testcases.ValidateAmbassador" time="18.074"/>
+  <testcase name="bookAticket" classname="com.gigm.testcases.ValidateBooking" time="30.398">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div.view-seats-section:nth-child(16) div.col-12.no-margin.seats-view-row.wow.fadeInUp div.container div.row.ng-scope div.row.right-margin.pad-15.itemtemp:nth-child(4) div.pad-bottom div.row.grey-background.down-20.add-pad-mobile.collapse.in div.col-sm-5.col-sm-offset-1.col-xs-12.pad-15.margin-left-10.on-mobile-rotate:nth-child(2) div.a14.add-pad-left.bus-back.ng-scope bus-seats.ng-isolate-scope div.row.ng-scope:nth-child(3) div.col-md-12 div.row div.col-xs-2.pad-28.ng-scope:nth-child(5) &gt; span.seatsselect.ng-binding.bus-available&quot;}&#10;  (Session info: chrome=79.0.3945.130)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;QA-SYSTEM&apos;, ip: &apos;192.168.1.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.11 (eaaae9de6b899..., userDataDir: C:\Users\DEVELO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59744}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: eef9f90fff2144959de3f60012920fe7&#10;*** Element info: {Using=css selector, value=div.view-seats-section:nth-child(16) div.col-12.no-margin.seats-view-row.wow.fadeInUp div.container div.row.ng-scope div.row.right-margin.pad-15.itemtemp:nth-child(4) div.pad-bottom div.row.grey-background.down-20.add-pad-mobile.collapse.in div.col-sm-5.col-sm-offset-1.col-xs-12.pad-15.margin-left-10.on-mobile-rotate:nth-child(2) div.a14.add-pad-left.bus-back.ng-scope bus-seats.ng-isolate-scope div.row.ng-scope:nth-child(3) div.col-md-12 div.row div.col-xs-2.pad-28.ng-scope:nth-child(5) &gt; span.seatsselect.ng-binding.bus-available}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"div.view-seats-section:nth-child(16) div.col-12.no-margin.seats-view-row.wow.fadeInUp div.container div.row.ng-scope div.row.right-margin.pad-15.itemtemp:nth-child(4) div.pad-bottom div.row.grey-background.down-20.add-pad-mobile.collapse.in div.col-sm-5.col-sm-offset-1.col-xs-12.pad-15.margin-left-10.on-mobile-rotate:nth-child(2) div.a14.add-pad-left.bus-back.ng-scope bus-seats.ng-isolate-scope div.row.ng-scope:nth-child(3) div.col-md-12 div.row div.col-xs-2.pad-28.ng-scope:nth-child(5) > span.seatsselect.ng-binding.bus-available"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA-SYSTEM', ip: '192.168.1.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.11 (eaaae9de6b899..., userDataDir: C:\Users\DEVELO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59744}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eef9f90fff2144959de3f60012920fe7
+*** Element info: {Using=css selector, value=div.view-seats-section:nth-child(16) div.col-12.no-margin.seats-view-row.wow.fadeInUp div.container div.row.ng-scope div.row.right-margin.pad-15.itemtemp:nth-child(4) div.pad-bottom div.row.grey-background.down-20.add-pad-mobile.collapse.in div.col-sm-5.col-sm-offset-1.col-xs-12.pad-15.margin-left-10.on-mobile-rotate:nth-child(2) div.a14.add-pad-left.bus-back.ng-scope bus-seats.ng-isolate-scope div.row.ng-scope:nth-child(3) div.col-md-12 div.row div.col-xs-2.pad-28.ng-scope:nth-child(5) > span.seatsselect.ng-binding.bus-available}
+	at com.gigm.testcases.ValidateBooking.bookAticket(ValidateBooking.java:39)
+</failure>
+    <system-out><![CDATA[tomorrow date is 01/01/1900
+The departure date is January 25, 2020
+The numbers of seat is 10 seat(s) available
+View Seats
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.11 (eaaae9de6b8999773fa33f92ce1e1bbe294437cf-refs/branch-heads/3904@{#86}) on port 34762
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1579852541.482][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+Jan 24, 2020 8:55:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Gigm_suite" class="navigator-link">
+              <span class="suite-name border-failed">Gigm suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Gigm_suite" class="navigator-link ">
+                    <span>C:\Users\developer\eclipse-workspace\DataDrivenFramework\runner\TestNg.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Gigm_suite" class="navigator-link ">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Gigm_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Gigm_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Gigm_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Gigm_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Gigm_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 3 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Gigm_suite" class="hide-methods failed suite-Gigm_suite"> (hide)</a> <!-- hide-methods failed suite-Gigm_suite -->
+                      <a href="#" panel-name="suite-Gigm_suite" class="show-methods failed suite-Gigm_suite"> (show)</a> <!-- show-methods failed suite-Gigm_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Gigm_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gigm_suite" title="com.gigm.testcases.ValidateLogin" class="method navigator-link" hash-for-method="Login(ghensky.oje@gmail.com, Password)">Login(ghensky.oje@gmail.com, Password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gigm_suite" title="com.gigm.testcases.ValidateLogin" class="method navigator-link" hash-for-method="Login(Obayemi92@gmail.com, Obayemi92@)">Login(Obayemi92@gmail.com, Obayemi92@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gigm_suite" title="com.gigm.testcases.ValidateBooking" class="method navigator-link" hash-for-method="bookAticket(Lateef Alagbada, obayemmy92@gmail.com, 07062356377, Michael Oworo, 08062356377)">bookAticket(Lateef Alagbada, obayemmy92@gmail.com, 07062356377, Michael Oworo, 08062356377)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Gigm_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Gigm_suite" class="hide-methods passed suite-Gigm_suite"> (hide)</a> <!-- hide-methods passed suite-Gigm_suite -->
+                      <a href="#" panel-name="suite-Gigm_suite" class="show-methods passed suite-Gigm_suite"> (show)</a> <!-- show-methods passed suite-Gigm_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Gigm_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gigm_suite" title="com.gigm.testcases.ValidateAmbassador" class="method navigator-link" hash-for-method="CheckAmbassador">CheckAmbassador</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gigm_suite" title="com.gigm.testcases.ValidateHeaderLinks" class="method navigator-link" hash-for-method="FooterlinksCheck">FooterlinksCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gigm_suite" title="com.gigm.testcases.ValidateLogin" class="method navigator-link" hash-for-method="Login(obayemi.oje@gmail.com, Ghensky)">Login(obayemi.oje@gmail.com, Ghensky)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gigm_suite" title="com.gigm.testcases.ValidateHeaderLinks" class="method navigator-link" hash-for-method="checkHeaderLinks">checkHeaderLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gigm_suite" title="com.gigm.testcases.ValidateSignUp" class="method navigator-link" hash-for-method="signUp(Remi Yinka , 07062356377, Password, Password, remi.adugbo@gmail.com)">signUp(Remi Yinka , 07062356377, Password, Password, remi.adugbo@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gigm_suite" title="com.gigm.testcases.ValidateSignUp" class="method navigator-link" hash-for-method="signUp(Femi Bunmi , 07062356377, Password1, Password1, femi.adugbo@gmail.com)">signUp(Femi Bunmi , 07062356377, Password1, Password1, femi.adugbo@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gigm_suite" title="com.gigm.testcases.ValidateSignUp" class="method navigator-link" hash-for-method="signUp(Kemi Funmi , 07062356377, Password@, password@, kemi.funmi@gmail.com)">signUp(Kemi Funmi , 07062356377, Password@, password@, kemi.funmi@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Gigm_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Gigm_suite" class="panel Gigm_suite">
+          <div class="suite-Gigm_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.gigm.testcases.ValidateBooking</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookAticket(Lateef Alagbada, obayemmy92@gmail.com, 07062356377, Michael Oworo, 08062356377)">
+                  </a> <!-- bookAticket(Lateef Alagbada, obayemmy92@gmail.com, 07062356377, Michael Oworo, 08062356377) -->
+                  <span class="method-name">bookAticket</span>
+                  <span class="parameters">(Lateef Alagbada, obayemmy92@gmail.com, 07062356377, Michael Oworo, 08062356377)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div.view-seats-section:nth-child(16) div.col-12.no-margin.seats-view-row.wow.fadeInUp div.container div.row.ng-scope div.row.right-margin.pad-15.itemtemp:nth-child(4) div.pad-bottom div.row.grey-background.down-20.add-pad-mobile.collapse.in div.col-sm-5.col-sm-offset-1.col-xs-12.pad-15.margin-left-10.on-mobile-rotate:nth-child(2) div.a14.add-pad-left.bus-back.ng-scope bus-seats.ng-isolate-scope div.row.ng-scope:nth-child(3) div.col-md-12 div.row div.col-xs-2.pad-28.ng-scope:nth-child(5) &gt; span.seatsselect.ng-binding.bus-available&quot;}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;QA-SYSTEM&apos;, ip: &apos;192.168.1.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.11 (eaaae9de6b899..., userDataDir: C:\Users\DEVELO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59744}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eef9f90fff2144959de3f60012920fe7
+*** Element info: {Using=css selector, value=div.view-seats-section:nth-child(16) div.col-12.no-margin.seats-view-row.wow.fadeInUp div.container div.row.ng-scope div.row.right-margin.pad-15.itemtemp:nth-child(4) div.pad-bottom div.row.grey-background.down-20.add-pad-mobile.collapse.in div.col-sm-5.col-sm-offset-1.col-xs-12.pad-15.margin-left-10.on-mobile-rotate:nth-child(2) div.a14.add-pad-left.bus-back.ng-scope bus-seats.ng-isolate-scope div.row.ng-scope:nth-child(3) div.col-md-12 div.row div.col-xs-2.pad-28.ng-scope:nth-child(5) &gt; span.seatsselect.ng-binding.bus-available}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.gigm.pages.SeatSelectionPage.selectedSeat(SeatSelectionPage.java:66)
+	at com.gigm.testcases.ValidateBooking.bookAticket(ValidateBooking.java:39)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Gigm_suite-class-failed -->
+          <div class="suite-Gigm_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.gigm.testcases.ValidateLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login(ghensky.oje@gmail.com, Password)">
+                  </a> <!-- Login(ghensky.oje@gmail.com, Password) -->
+                  <span class="method-name">Login</span>
+                  <span class="parameters">(ghensky.oje@gmail.com, Password)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;#&quot; id=&quot;lmodal&quot;&gt;...&lt;/a&gt; is not clickable at point (1385, 30). Other element would receive the click: &lt;div id=&quot;myLogin&quot; class=&quot;Mymodal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;myModalLabel&quot; aria-hidden=&quot;true&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=79.0.3945.130)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;QA-SYSTEM&apos;, ip: &apos;192.168.1.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.11 (eaaae9de6b899..., userDataDir: C:\Users\DEVELO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 82c3ae845ce6662e0a2440877e4cb915
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.gigm.pages.LoginPage.loginBtn(LoginPage.java:20)
+	at com.gigm.testcases.ValidateLogin.Login(ValidateLogin.java:34)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login(Obayemi92@gmail.com, Obayemi92@)">
+                  </a> <!-- Login(Obayemi92@gmail.com, Obayemi92@) -->
+                  <span class="method-name">Login</span>
+                  <span class="parameters">(Obayemi92@gmail.com, Obayemi92@)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;#&quot; id=&quot;lmodal&quot;&gt;...&lt;/a&gt; is not clickable at point (1385, 30). Other element would receive the click: &lt;div id=&quot;myLogin&quot; class=&quot;Mymodal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;myModalLabel&quot; aria-hidden=&quot;true&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=79.0.3945.130)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;QA-SYSTEM&apos;, ip: &apos;192.168.1.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.11 (eaaae9de6b899..., userDataDir: C:\Users\DEVELO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 82c3ae845ce6662e0a2440877e4cb915
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.gigm.pages.LoginPage.loginBtn(LoginPage.java:20)
+	at com.gigm.testcases.ValidateLogin.Login(ValidateLogin.java:34)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Gigm_suite-class-failed -->
+          <div class="suite-Gigm_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gigm.testcases.ValidateSignUp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUp(Remi Yinka , 07062356377, Password, Password, remi.adugbo@gmail.com)">
+                  </a> <!-- signUp(Remi Yinka , 07062356377, Password, Password, remi.adugbo@gmail.com) -->
+                  <span class="method-name">signUp</span>
+                  <span class="parameters">(Remi Yinka , 07062356377, Password, Password, remi.adugbo@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUp(Femi Bunmi , 07062356377, Password1, Password1, femi.adugbo@gmail.com)">
+                  </a> <!-- signUp(Femi Bunmi , 07062356377, Password1, Password1, femi.adugbo@gmail.com) -->
+                  <span class="method-name">signUp</span>
+                  <span class="parameters">(Femi Bunmi , 07062356377, Password1, Password1, femi.adugbo@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUp(Kemi Funmi , 07062356377, Password@, password@, kemi.funmi@gmail.com)">
+                  </a> <!-- signUp(Kemi Funmi , 07062356377, Password@, password@, kemi.funmi@gmail.com) -->
+                  <span class="method-name">signUp</span>
+                  <span class="parameters">(Kemi Funmi , 07062356377, Password@, password@, kemi.funmi@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Gigm_suite-class-passed -->
+          <div class="suite-Gigm_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gigm.testcases.ValidateLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login(obayemi.oje@gmail.com, Ghensky)">
+                  </a> <!-- Login(obayemi.oje@gmail.com, Ghensky) -->
+                  <span class="method-name">Login</span>
+                  <span class="parameters">(obayemi.oje@gmail.com, Ghensky)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Gigm_suite-class-passed -->
+          <div class="suite-Gigm_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gigm.testcases.ValidateAmbassador</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckAmbassador">
+                  </a> <!-- CheckAmbassador -->
+                  <span class="method-name">CheckAmbassador</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Gigm_suite-class-passed -->
+          <div class="suite-Gigm_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gigm.testcases.ValidateHeaderLinks</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FooterlinksCheck">
+                  </a> <!-- FooterlinksCheck -->
+                  <span class="method-name">FooterlinksCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkHeaderLinks">
+                  </a> <!-- checkHeaderLinks -->
+                  <span class="method-name">checkHeaderLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Gigm_suite-class-passed -->
+        </div> <!-- panel Gigm_suite -->
+        <div panel-name="test-xml-Gigm_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\developer\eclipse-workspace\DataDrivenFramework\runner\TestNg.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Gigm suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test name=&quot;AllLinks&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.gigm.testcases.ValidateHeaderLinks&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AllLinks --&gt;
+  &lt;test name=&quot;Login&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.gigm.testcases.ValidateLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login --&gt;
+  &lt;test name=&quot;SignUp&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.gigm.testcases.ValidateSignUp&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SignUp --&gt;
+  &lt;test name=&quot;Ambassador&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.gigm.testcases.ValidateAmbassador&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Ambassador --&gt;
+  &lt;test name=&quot;Booking&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.gigm.testcases.ValidateBooking&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Booking --&gt;
+  &lt;test parallel=&quot;tests&quot; name=&quot;Login(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.gigm.testcases.ValidateSignUp&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.gigm.testcases.ValidateSignUp --&gt;
+      &lt;class name=&quot;com.gigm.testcases.ValidateBooking&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.gigm.testcases.ValidateBooking --&gt;
+      &lt;class name=&quot;com.gigm.testcases.ValidateLogin&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Login&quot; invocation-numbers=&quot;1 2&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.gigm.testcases.ValidateLogin --&gt;
+      &lt;class name=&quot;com.gigm.testcases.ValidateAmbassador&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.gigm.testcases.ValidateAmbassador --&gt;
+      &lt;class name=&quot;com.gigm.testcases.ValidateHeaderLinks&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.gigm.testcases.ValidateHeaderLinks --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login(failed) --&gt;
+  &lt;test parallel=&quot;tests&quot; name=&quot;Booking(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.gigm.testcases.ValidateSignUp&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.gigm.testcases.ValidateSignUp --&gt;
+      &lt;class name=&quot;com.gigm.testcases.ValidateBooking&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;bookAticket&quot; invocation-numbers=&quot;0&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.gigm.testcases.ValidateBooking --&gt;
+      &lt;class name=&quot;com.gigm.testcases.ValidateLogin&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.gigm.testcases.ValidateLogin --&gt;
+      &lt;class name=&quot;com.gigm.testcases.ValidateAmbassador&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.gigm.testcases.ValidateAmbassador --&gt;
+      &lt;class name=&quot;com.gigm.testcases.ValidateHeaderLinks&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.gigm.testcases.ValidateHeaderLinks --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Booking(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Gigm suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Gigm_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Gigm suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AllLinks (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SignUp (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Ambassador (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Booking (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login(failed) (5 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Booking(failed) (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Gigm_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Gigm suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Gigm_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Gigm suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Gigm_suite');
+function tableData_Gigm_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkHeaderLinks')
+data.setCell(0, 2, 'com.gigm.testcases.ValidateHeaderLinks')
+data.setCell(0, 3, 42196);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'bookAticket')
+data.setCell(1, 2, 'com.gigm.testcases.ValidateBooking')
+data.setCell(1, 3, 30393);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'CheckAmbassador')
+data.setCell(2, 2, 'com.gigm.testcases.ValidateAmbassador')
+data.setCell(2, 3, 18075);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'FooterlinksCheck')
+data.setCell(3, 2, 'com.gigm.testcases.ValidateHeaderLinks')
+data.setCell(3, 3, 14769);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'signUp')
+data.setCell(4, 2, 'com.gigm.testcases.ValidateSignUp')
+data.setCell(4, 3, 10674);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'signUp')
+data.setCell(5, 2, 'com.gigm.testcases.ValidateSignUp')
+data.setCell(5, 3, 9879);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'signUp')
+data.setCell(6, 2, 'com.gigm.testcases.ValidateSignUp')
+data.setCell(6, 3, 9378);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Login')
+data.setCell(7, 2, 'com.gigm.testcases.ValidateLogin')
+data.setCell(7, 3, 8211);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Login')
+data.setCell(8, 2, 'com.gigm.testcases.ValidateLogin')
+data.setCell(8, 3, 8137);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Login')
+data.setCell(9, 2, 'com.gigm.testcases.ValidateLogin')
+data.setCell(9, 3, 6306);
+window.suiteTableData['Gigm_suite']= { tableData: data, tableDiv: 'times-div-Gigm_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Gigm_suite">
+              </div> <!-- times-div-Gigm_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Gigm_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Gigm suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Gigm_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Gigm_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gigm.testcases.ValidateHeaderLinks</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">checkHeaderLinks</span>
+                <span class="method-start">10500 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FooterlinksCheck</span>
+                <span class="method-start">52698 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67470 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gigm.testcases.ValidateLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">67712 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Login(obayemi.oje@gmail.com, Ghensky)</span>
+                <span class="method-start">81435 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Login(ghensky.oje@gmail.com, Password)</span>
+                <span class="method-start">87741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Login(Obayemi92@gmail.com, Obayemi92@)</span>
+                <span class="method-start">95889 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">104102 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gigm.testcases.ValidateSignUp</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">104292 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">signUp(Remi Yinka , 07062356377, Password, Password, remi.adugbo@gmail.com)</span>
+                <span class="method-start">118440 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signUp(Femi Bunmi , 07062356377, Password1, Password1, femi.adugbo@gmail.com)</span>
+                <span class="method-start">129115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signUp(Kemi Funmi , 07062356377, Password@, password@, kemi.funmi@gmail.com)</span>
+                <span class="method-start">138493 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">148373 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gigm.testcases.ValidateAmbassador</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">148553 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">CheckAmbassador</span>
+                <span class="method-start">161505 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">179580 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gigm.testcases.ValidateBooking</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">179760 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">bookAticket(Lateef Alagbada, obayemmy92@gmail.com, 07062356377, Michael Oworo, 08062356377)</span>
+                <span class="method-start">193019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">223415 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
